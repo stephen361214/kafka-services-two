@@ -10,4 +10,5 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        echo "FOO=${FOO}" >> $GITHUB_ENV
+        FOO=test
+        echo FOO=test >> $GITHUB_ENV
